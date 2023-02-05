@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../utils/color_generator.dart';
-
-const String _heyThere = 'Hey There';
+import 'package:hey_there_app/resources/app_strings.dart';
+import 'package:hey_there_app/utils/color_generator.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -34,7 +32,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: backgroundColor,
         body: const Center(
           child: Text(
-            _heyThere,
+            AppStrings.heyThere,
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w700,
